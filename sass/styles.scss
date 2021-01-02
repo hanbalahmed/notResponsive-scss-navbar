@@ -1,0 +1,30 @@
+@import "_variables";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: $primary-color;
+  color: antiquewhite;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: $secondary-color;
+
+  .nav-links {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+
+    .nav-link {
+      cursor: pointer;
+    }
+  }
+}
